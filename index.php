@@ -1,6 +1,6 @@
 <?php
 $get = $_GET['get'];
-$mpdUrl = 'https://dai.fancode.com/primary/' . $get;
+$mpdUrl = 'https://dai.fancode.com/' . $get;
 
 $mpdheads = [
   'http' => [
